@@ -1,0 +1,17 @@
+# Secrets (must never be pushed to GitHub)
+.streamlit/secrets.toml
+.env
+
+# Dataset (download it from Kaggle, see README)
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
